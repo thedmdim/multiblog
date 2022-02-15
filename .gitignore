@@ -1,5 +1,5 @@
 /.idea
 /posts/*
-!/posts/test_user/test_post.md
+!/posts/test_user
 /venv
 /__pycache__
