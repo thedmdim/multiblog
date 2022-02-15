@@ -1,11 +1,9 @@
-import os, glob, markdown, mistune
+import os, glob, mistune
 from flask import Flask
 from flask import render_template
-import xml.etree.cElementTree as ET
 from datetime import datetime
 
 app = Flask(__name__)
-
 
 SECRET_KEY = "51298bfcfcc5a83ab27a8f4df4234ffa3890f404"
 POSTS = os.path.join(app.root_path, "posts")
