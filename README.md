@@ -7,4 +7,4 @@ Features:
 - Night mode
 - Adaptive style for mobiles
 
-![Screenshot](https://github.com/thedmdim/multiblog/blob/master/screenshot.jpg?raw=true)
+![Screenshot](https://github.com/thedmdim/multiblog/blob/master/screenshot.png?raw=true)
