@@ -1,5 +1,5 @@
 # multiblog
-Blog for many users in markdown format. 
+Blog for many users built with Flask.
 
 Features:
 - Markdown support
