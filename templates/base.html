@@ -8,18 +8,17 @@
 	</head>
 	<body>
 		<header>
-			<!-- <a id="logo" href="/"><img align="left" width="50px" src="{{ url_for('static', filename='pics/logo.png') }}"/></a>-->
-			<a id="logo" href="/">hub.ci</a>
-			<!--<a id="night-mode" href="/"><img align="right"  src="{{ url_for('static', filename='pics/pxmoon.png') }}"/></a>-->
+			<a id="logo" href="/">multiblog</a>
+			<link rel="shortcut icon" href="{{ url_for('.static', filename='pics/favicon.ico') }}" type="image/x-icon">
 			<script src="{{ url_for('.static', filename='js/script.js') }}" defer></script>
-			<input type="checkbox" id="dark-mode" onclick="darkMode()"/>
-			<label for="dark-mode"></label>
+
+			<label style="float:right;"><input type="checkbox" id="dark-mode" onclick="darkMode()"/>Night mode</label>
 		</header>
 
 		{% block body %}{% endblock %}
 
 		<footer>
-			<p>Contacts</p>
+			<p>Made with <a href="https://github.com/thedmdim/multiblog">multiblog</a></p>
 		</footer>
 	</body>
 </html>
