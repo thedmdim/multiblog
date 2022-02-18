@@ -1,4 +1,4 @@
-# multiblog
+# Multiblog
 Blog for many users built with Flask.
 
 Features:
